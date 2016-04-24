@@ -66,3 +66,8 @@ drupal_static_reset('element_info');
  * they are properly detected when drupal_alter() is invoked.
  */
 bootstrap_include('bootstrap', 'includes/alter.inc');
+
+function mytheme_preprocess_html(&$variables) {
+  drupal_add_css('http://fonts.googleapis.com/css?family=News+Cycle', array('type' => 'external'));
+}
+
