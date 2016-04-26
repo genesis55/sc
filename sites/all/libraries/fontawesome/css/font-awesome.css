@@ -2193,41 +2193,52 @@
   color:#989898;
 }
 
-#block-system-navigation > ul > li:nth-child(1) > a:before {
-  content: "\f073"; /* FontAwesome Calendar */
-  font-family: FontAwesome;
+#block-system-navigation > ul > li > a:before {
   display: inline-block;
   margin-left: -1em; /* same as padding-left set on li */
   width: 1.6em; /* same as padding-left set on li */
   font-size:24px;
   color:#44afd9;
+  font-family: FontAwesome;
 }
 
+#block-system-navigation > ul > li:nth-child(1) > a:before {
+  content: "\f02d"; /* FontAwesome Calendar */
+}
 #block-system-navigation > ul > li:nth-child(2) > a:before {
-  content: "\f003"; /* FontAwesome Envelope */
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1em; /* same as padding-left set on li */
-  width: 1.6em; /* same as padding-left set on li */
-  font-size:24px;
-  color:#44afd9;
+  content: "\f073"; /* FontAwesome Calendar */
 }
 
 #block-system-navigation > ul > li:nth-child(3) > a:before {
-  content: "\f086"; /* FontAwesome Envelope */
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1em; /* same as padding-left set on li */
-  width: 1.6em; /* same as padding-left set on li */
-  font-size:24px;
-  color:#44afd9;
+  content: "\f003"; /* FontAwesome Envelope */
 }
+
 #block-system-navigation > ul > li:nth-child(4) > a:before {
-  content: "\f07A"; /* FontAwesome Shopping Cart */
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1em; /* same as padding-left set on li */
-  width: 1.6em; /* same as padding-left set on li */
-  font-size:24px;
-  color:#44afd9;
+  content: "\f086"; /* FontAwesome Envelope */
 }
+#block-system-navigation > ul > li:nth-child(5) > a:before {
+  content: "\f07A"; /* FontAwesome Shopping Cart */
+}
+/* Mega Menu Customized*/
+.tb-megamenu-nav {
+  background-color:#373737;
+}
+
+.tb-megamenu .nav > li > a {
+    border-right: 1px solid #222;
+    border-top: 0 none;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-shadow: none;
+}
+/*
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
+    background-color: #e54e4b; 
+    background-color:#2A71A5;
+    border-color: #444;
+    color: #eee;
+}
+*/
+
+
